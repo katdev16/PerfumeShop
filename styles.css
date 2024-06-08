@@ -8,6 +8,9 @@ body {
 .container {
     /* width: 80%; */
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;  
+    
 }
 
 .cart-icon {
@@ -20,6 +23,7 @@ header {
     color: #fff;
     padding: 3em 0;
     display: flex;
+    
     justify-content: space-between;
     align-items: center;
 }
@@ -31,13 +35,22 @@ header h1 {
 header nav ul {
     list-style: none;
     padding: 0%;
+    justify-content: space-between;
     /* margin: 0rem; */
     display: flex;
+    margin-bottom: 0;
  
+}
+header nav{
+    border: #f3f3f3 10px solid;
+}
+
+header div{
+    border: #6e2828 10px solid;
 }
 
 header nav ul li {
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
    
 
 }
