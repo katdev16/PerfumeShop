@@ -10,8 +10,12 @@ body {
     margin: 0 auto;
     justify-content: center;
     align-items: center;  
-    
+
+    border: 10px red solid;
 }
+
+
+
 
 .cart-icon {
     width: 100%;
@@ -21,37 +25,47 @@ body {
 header {
     background: #000000;
     color: #fff;
-    padding: 3em 0;
+    /* padding: 3em 0; */
     display: flex;
     
     justify-content: space-between;
     align-items: center;
+
+   
+    border: 10px rgb(189, 241, 0) solid;
 }
 
 header h1 {
-    margin: 0;
-}
+     /* margin: 0; */
+} 
 
 header nav ul {
     list-style: none;
     padding: 0%;
+  
+   
     justify-content: space-between;
     /* margin: 0rem; */
     display: flex;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
  
 }
 header nav{
     border: #f3f3f3 10px solid;
+    margin-top: 20%;
+    /* padding:0% 100% 0% 100%; */
+   
+    
+
 }
 
 header div{
-    border: #6e2828 10px solid;
+    padding: 0% 35%
+   
 }
 
 header nav ul li {
     /* margin-left: 1rem; */
-   
 
 }
 
