@@ -11,7 +11,9 @@ body {
     justify-content: center;
     align-items: center;  
 
-    border: 10px red solid;
+
+/*     
+    border: 10px red solid; */
 }
 
 
@@ -32,12 +34,13 @@ header {
     align-items: center;
 
    
-    border: 10px rgb(189, 241, 0) solid;
+    /* border: 10px rgb(189, 241, 0) solid; */
 }
 
 header div h1 {
      /* margin: 0; */
-     padding-left: 17rem;
+    
+     text-align: center;
    
 } 
 
@@ -53,12 +56,13 @@ header nav ul {
  
 }
 header nav{
-    border: #f3f3f3 10px solid;
+    
     /* margin-top: 20%; */
     /* padding:0% 100% 0% 100%; */
+    
    
     
-
+    /* border: #f3f3f3 10px solid; */
 }
 
 header div{
@@ -76,6 +80,10 @@ header nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+
+nav ul li a:hover {
+    color: #5800fc; /* Change this to the color you want on hover */
+  }
 
 header .cart a {
     color: #fff;
