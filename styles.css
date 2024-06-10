@@ -57,7 +57,7 @@ header nav ul {
 }
 header nav{
     
-    /* margin-top: 20%; */
+    margin-top: 5%;
     /* padding:0% 100% 0% 100%; */
     
    
@@ -94,7 +94,7 @@ header .cart a {
 
 .banner {
     background: url('banner.jpg') no-repeat center center/cover;
-    color: #fff;
+    color: #000000;
     text-align: center;
     padding: 4rem 0;
 }
@@ -109,13 +109,23 @@ header .cart a {
 }
 
 .banner .btn {
-    background: #ff6347;
+    background: #000000;
     color: #fff;
     padding: 0.5rem 1rem;
     text-decoration: none;
     margin-top: 1rem;
     display: inline-block;
 }
+
+.banner .btn:hover{
+    color: #5800fc;
+}
+
+.product-item .btn:hover{
+    color: #5800fc;
+}
+
+
 
 .products {
     padding: 2rem 0;
