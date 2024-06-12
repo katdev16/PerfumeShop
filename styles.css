@@ -41,6 +41,7 @@ header div h1 {
      /* margin: 0; */
     
      text-align: center;
+
    
 } 
 
@@ -97,6 +98,13 @@ header .cart a {
     color: #000000;
     text-align: center;
     padding: 4rem 0;
+
+    
+}
+
+.banner:hover{
+    border: #5800fc solid;
+
 }
 
 .banner h2 {
